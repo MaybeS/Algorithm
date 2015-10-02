@@ -149,9 +149,8 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Function_Example.h" />
-    <ClInclude Include="Headers\functional.h" />
     <ClInclude Include="Headers\Console_Example.h" />
+    <ClInclude Include="Headers\Function_Example.h" />
     <ClInclude Include="Headers\graph.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

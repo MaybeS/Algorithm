@@ -26,13 +26,10 @@
     <ClInclude Include="Headers\graph.h">
       <Filter>header</Filter>
     </ClInclude>
-    <ClInclude Include="Headers\functional.h">
-      <Filter>header</Filter>
-    </ClInclude>
     <ClInclude Include="Headers\Console_Example.h">
       <Filter>header</Filter>
     </ClInclude>
-    <ClInclude Include="Function_Example.h">
+    <ClInclude Include="Headers\Function_Example.h">
       <Filter>header</Filter>
     </ClInclude>
   </ItemGroup>
