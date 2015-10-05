@@ -1,14 +1,18 @@
 #include <iostream>
+#include <functional>
+#include "algebra/math.h"
+/*user header to compile*/
 
 #ifdef _WIN32 || _WIN64
-	#pragma warning (disable : 4996)
+	#pragma warning (disable:4996)
 #endif
 
-/*user header to compile*/
-#include "algebra/math.h"
+#pragma once
 
+using namespace std;
 int main(int argc, char * argv[])
 {
+
 	
 	return 0;
 }

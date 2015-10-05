@@ -40,14 +40,13 @@ bool hamiltonCycle_sub(vector<vector<bool> > map, vector<int> path, int pos)
 	}
 	return false;
 }
-bool hamiltonCycle(vector<vector<bool> > map)
+bool hamiltonCycle(vector<vector<bool>> map)
 {
 	vector<int> path(map.size(),-1);
 	path[0] = 0;
 	if(!hamiltonCycle_sub(map,path,1))
 	{
-		//No solution
-		return false;
+		//No solution		return false;
 	}
 	//path == solution
 	return true;
